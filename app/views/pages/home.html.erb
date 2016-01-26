@@ -1,0 +1,12 @@
+<h1>Pages#home</h1>
+<h3>Auteur: <%= @author_name%></h3>
+<h3>Titre: <%= @title%></h3>
+
+<form action="/" method="get">
+  <input type="text" name="author" value="Auteur">
+  <input type="text" name="title" value="Titre">
+  <input type="submit">
+</form>
+
+
+<%= link_to "Page About", about_path %>
